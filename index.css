@@ -1,0 +1,33 @@
+.outerSlider {
+  position: absolute;
+  border: 2px solid black;
+  background-color: beige;
+}
+
+.clientSlider {
+  position: absolute;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  /* top: 20px; */
+  background-color: bisque;
+  /* left: 20px; */
+  /* border: 5px solid black; */
+}
+
+#outerSlider1 {
+  height: 500px;
+  width: 500px;
+}
+
+#outerSlider2 {
+  top: 500px;
+  height: 500px;
+  width: 500px;
+}
+
+.positionCenter {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+}
